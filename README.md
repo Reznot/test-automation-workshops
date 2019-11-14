@@ -75,7 +75,7 @@ script:
 - [x] rozszerz konfigurację CI o linter oraz testy jednostkowe (Uwaga: nie dodawaj na razie testów E2E, tymi zajmiemy się na następnych zajęciach), sprawdź czy wszystko działa na serwerze CI
 
 ## Zadanie 5 - Konfiguracja deploymentu
-- [ ] w pliku z konfiguracją travisa dodaj
+- [x] w pliku z konfiguracją travisa dodaj
 
 ~~~
 deploy:
@@ -86,9 +86,9 @@ deploy:
   on:
     branch: master
 ~~~
-- [ ] [Wygeneruj Token dla Githuba](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
-- [ ] Dodaj token jako zmienną środowiskową w konfiguracji Builda w travisie: otwórz projekt w Travisie, kliknij prawym przyciskiem na "More options: Settings". Znajdź sekcję "Environment Variables", dodaj tam wygenerowany przed chwilą token z nazwą GITHUB_TOKEN (lub inną, zmień wtedy konfigurację .travis.yml)
-- [ ] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
+- [x] [Wygeneruj Token dla Githuba](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+- [x] Dodaj token jako zmienną środowiskową w konfiguracji Builda w travisie: otwórz projekt w Travisie, kliknij prawym przyciskiem na "More options: Settings". Znajdź sekcję "Environment Variables", dodaj tam wygenerowany przed chwilą token z nazwą GITHUB_TOKEN (lub inną, zmień wtedy konfigurację .travis.yml)
+- [x] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
 - [ ] Wejdź w ustawienia swojego repozytorium, włącz GitHub Pages (wybierz branch gh-pages)
 
  ## Zadanie 6 - Udowodnienie, że całość działa

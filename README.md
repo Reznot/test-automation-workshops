@@ -31,13 +31,13 @@ Uruchom `ng e2e` aby wykonać testy end to end z wykorzystaniem [Protractor](htt
 Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 
 ## Zadanie 1 - setup
-- [ ] Stwórz forka repozytorium
-- [ ] Sklonuj sforkowane repozytorium (pracujemy na swoich repozytoriach)
-- [ ] Uruchom aplikację lokalnie
+- [x] Stwórz forka repozytorium
+- [x] Sklonuj sforkowane repozytorium (pracujemy na swoich repozytoriach)
+- [x] Uruchom aplikację lokalnie
 
 ## Zadanie 2 - naprawa testów
-- [ ] Uruchom linter
-- [ ] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
+- [x] Uruchom linter
+- [x] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
 - [ ] Uruchom testy jednostkowe
 - [ ] Napraw testy jednostkowe
 - [ ] Uruchom testy End-to-End

@@ -38,8 +38,8 @@ Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 ## Zadanie 2 - naprawa testów
 - [x] Uruchom linter
 - [x] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
-- [ ] Uruchom testy jednostkowe
-- [ ] Napraw testy jednostkowe
+- [x] Uruchom testy jednostkowe
+- [x] Napraw testy jednostkowe
 - [ ] Uruchom testy End-to-End
 - [ ] Napraw test End-to-End
 

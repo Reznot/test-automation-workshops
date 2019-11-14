@@ -49,11 +49,11 @@ Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 dopisz przypadki testowe, które zwiększa pokrycie - zignoruj przypadki dla funkcji onSubmit()
 
 ## Zadanie 4 - Konfiguracja pipeline'u CI
-- [ ] Zaloguj się w [TravisCI](https://travis-ci.org/) z wykorzystaniem swojego GithubID
-- [ ] Jeśli już masz konto, zastosuj "sync account"
-- [ ] Uruchom CI dla repozytorium PESEL
-- [ ] Utwórz nowy plik .travis.yml
-- [ ] W pliku dodaj wstępną konfigurację CI
+- [x] Zaloguj się w [TravisCI](https://travis-ci.org/) z wykorzystaniem swojego GithubID
+- [x] Jeśli już masz konto, zastosuj "sync account"
+- [x] Uruchom CI dla repozytorium PESEL
+- [x] Utwórz nowy plik .travis.yml
+- [x] W pliku dodaj wstępną konfigurację CI
 
 ~~~
 language: node_js
@@ -71,8 +71,8 @@ before_script:
 script:
 - ng build --prod --base-href https://bamanczak.github.io/pesel/
 ~~~
-- [ ] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
-- [ ] rozszerz konfigurację CI o linter oraz testy jednostkowe (Uwaga: nie dodawaj na razie testów E2E, tymi zajmiemy się na następnych zajęciach), sprawdź czy wszystko działa na serwerze CI
+- [x] `git commit` oraz `git push` - sprawdź czy Travis uruchomił Build
+- [x] rozszerz konfigurację CI o linter oraz testy jednostkowe (Uwaga: nie dodawaj na razie testów E2E, tymi zajmiemy się na następnych zajęciach), sprawdź czy wszystko działa na serwerze CI
 
 ## Zadanie 5 - Konfiguracja deploymentu
 - [ ] w pliku z konfiguracją travisa dodaj

@@ -44,8 +44,8 @@ Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 - [x] Napraw test End-to-End
 
 ## Zadanie 3 - rozszerzenie unit testów
-- [ ] Uruchom testy jednostkowe z flagą --code-coverage
-- [ ] Zweryfikuj raport html pokrycia kodu w pliku .coverage\pesel\index.html
+- [x] Uruchom testy jednostkowe z flagą --code-coverage
+- [x] Zweryfikuj raport html pokrycia kodu w pliku .coverage\pesel\index.html
 dopisz przypadki testowe, które zwiększa pokrycie - zignoruj przypadki dla funkcji onSubmit()
 
 ## Zadanie 4 - Konfiguracja pipeline'u CI

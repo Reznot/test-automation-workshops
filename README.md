@@ -40,8 +40,8 @@ Kod testów e2e znajduje się w `/e2e/src/app.e2e-spec.ts`
 - [x] Napraw wszystkie błędy lintera (plik `/src/app/app.component.ts` )
 - [x] Uruchom testy jednostkowe
 - [x] Napraw testy jednostkowe
-- [ ] Uruchom testy End-to-End
-- [ ] Napraw test End-to-End
+- [x] Uruchom testy End-to-End
+- [x] Napraw test End-to-End
 
 ## Zadanie 3 - rozszerzenie unit testów
 - [ ] Uruchom testy jednostkowe z flagą --code-coverage

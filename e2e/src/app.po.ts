@@ -17,7 +17,7 @@ export class AppPage {
     return element(by.name('submitButton'));
   }
 
-  getPeselValidSpanText() {
-    return element(by.name('peselValidSpan')).getText() as Promise<string>;
+  getPeselValidSpan() {
+    return element(by.name('peselValidSpan'));
   }
 }

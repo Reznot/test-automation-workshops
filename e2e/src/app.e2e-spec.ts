@@ -22,10 +22,12 @@ describe('workspace-project App', () => {
     var EC = protractor.ExpectedConditions;
     page.navigateTo();
     let peselInput = page.getPeselInput();
+    let peselSpan = page.getPeselValidSpan();
+
     peselInput.sendKeys('97062412939');
     page.getSubmitButton().click()
-    browser.sleep(1000)
-    expect(page.getPeselValidSpanText()).toEqual('PESEL prawidłowy')
+    browser.wait(EC.visibilityOf(peselSpan), 3000);
+    expect(peselSpan.getText()).toEqual('PESEL prawidłowy')
   });
 
   afterEach(async () => {

@@ -8,4 +8,16 @@ export class AppPage {
   getTitleText() {
     return element(by.css('app-root h1')).getText() as Promise<string>;
   }
+
+  getPeselInput() {
+    return element(by.name('peselInput'));
+  }
+
+  getSubmitButton() {
+    return element(by.name('submitButton'));
+  }
+
+  getPeselValidSpanText() {
+    return element(by.name('peselValidSpan')).getText() as Promise<string>;
+  }
 }

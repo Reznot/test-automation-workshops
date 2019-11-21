@@ -15,7 +15,7 @@
               (blur)="hasFocus = false"
               name="peselInput"
               fxFlex="90%" />
-      <button mat-raised-button type='submit' fxFlex="10%">
+      <button mat-raised-button type='submit' fxFlex="10%" name="submitButton">
         <mat-icon>play_arrow</mat-icon>
       </button>
     </form>
@@ -27,7 +27,7 @@
         <mat-icon class="vertical-center" *ngIf="!isValid">cancel</mat-icon>
         <span *ngIf="!isValid">PESEL nieprawidłowy</span>
         <mat-icon class="vertical-center" *ngIf="isValid">cancel</mat-icon>
-        <span *ngIf="isValid">PESEL prawidłowy</span>
+        <span *ngIf="isValid" name="peselValidSpan">PESEL prawidłowy</span>
 
     </h2>
 </div>

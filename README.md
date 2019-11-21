@@ -104,3 +104,6 @@ deploy:
  ## Zadanie *
 - [ ] Co najmniej 1 rodzaj nieprawidłowego numeru PESEL jest oznaczany przez walidator jako prawidłowy. Jesteś w stanie go znaleźć?
 - [ ] Jesteś w stanie go naprawić?
+
+
+gh-page: github.com/bamanczak/pesel
